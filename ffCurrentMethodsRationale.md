@@ -36,7 +36,7 @@ We derived the different types of Natural communities from the Soils layer provi
 | 7| 0 |
 | 8 | 0 |
 
-![ffHistoric](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/ffHistoric.png)
+![ffHistoric](/assets/images/ffHistoric.png)
 
 
 #### 2. Defining land cover categories
