@@ -13,32 +13,32 @@ Looking ahead, the primary goals for floodplain forest conservation are:
 #### 1. Existing floodplain forests are fragmented
 Current floodplain forest extents mostly include very narrow strips of floodplain forest communities along rivers that are largely on the East side of the Otter Creek River.
 
-![ffCurrent2](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/ffCurrent2.png)
+![ffCurrent2](/assets/images/ffCurrent2.png)
 
 #### 2. Agriculture has been the main land development on historic floodplain forest extents
 
 A large percentage of historic floodplain forests has been converted to agricultural lands. This demonstrates how agriculture as a land use is preferred over the development of infrastructure as floodplain forest soils are highly valuable for farming practices.
 
-![currentGraph](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/currentGraph.png)
+![currentGraph](/assets/images/currentGraph.png)
 
-![lcHistReclassed](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/lcHistReclassed.png)
+![lcHistReclassed](/assets/images/lcHistReclassed.png)
 
 #### 3. Prime agricultural soils are often not in direct conflict with floodplain forests
 
 The majority of historic and current floodplain forests do not in fact overlap with prime agricultural soils. The low gradient of the Otter Creek river leads to a lower deposition rate of fine sediment, which forms prime soil types. This demonstrates to us prime agricultural soils are often not in direct conflict with floodplain forests around Middlebury and therefore, agricultural lands that don't hold prime soils may be able to concede some of their land for floodplain forest restoration.
 
-![primeSoils](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/primeSoils.png)
+![primeSoils](/assets/images/primeSoils.png)
 
-![primeSoilsMap](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/primeSoilsMap.png)
+![primeSoilsMap](/assets/images/primeSoilsMap.png)
 
 #### 4. The majority of floodplain forest communities can be conserved through the protection of riparian connectors
 The majority (Historic: 60%, Current: 96%) of floodplain forest habitat remains unprotected and much of the historic floodplain forest land is under agricultural protection or just agricultural lands (as we also saw in the 2nd Result). However, a significant portion of current and historic extents can be protected under the conservation of habitat blocks, river corridors, and riparian connectors. The protection of riparian connectors (which include river corridors and flood zones) appears to cover most of floodplain forest extents and therefore, would be the most effective in its conservation (as shown in the map below).
 
-![protectedLands](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/protectedLands.png)
+![protectedLands](/assets/images/protectedLands.png)
 
-![hbRCProtection](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/hbRCProtection.png)
+![hbRCProtection](/assets/images/hbRCProtection.png)
 
-![riparianConnector](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/riparianConnector.png)
+![riparianConnector](/assets/images/riparianConnector.png)
 
 ### Known Limitations:
 - Our analysis did not consider floodplain forests along lakes, which form a category under different types of floodplain forest communities in Vermont

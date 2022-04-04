@@ -46,7 +46,7 @@ We derived the different types of Natural communities from the Soils layer provi
 
 Trees and grass land cover features that are found around buildings are often part of the landscaping footprint of the building. We wanted to remove these areas around buildings so they are not counted in deriving floodplain forest extents. We used the buildings buffer layer, which includes a 100 foot buffer created around buildings from the land cover dataset.
 
-![buildingBuffer](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/buildingBuffer.png)
+![buildingBuffer](/assets/images/buildingBuffer.png)
 
 We reclassified the buildings buffer layer to have a value of 10 (0-> 0, 1-> 10). We then added the building buffer layer to the simplified land cover layer, which gave us additional values from 11 to 15 that included where the buildings buffer overlapped with the first five categories. We reclassified the resulting layer to categorize trees and shrubs/grass that intersect with building buffers to have a value of 0.
 
@@ -63,7 +63,7 @@ We reclassified the buildings buffer layer to have a value of 10 (0-> 0, 1-> 10)
 | Building Buffer + Imp. Surface | 14 | 4 |
 | Building Buffer + Buildings | 15 | 5 |
 
-![treeCanopySubtracted](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/treeCanopySubtracted.png)
+![treeCanopySubtracted](/assets/images/treeCanopySubtracted.png)
 
 
 ##### B. Adding Agricultural Lands
@@ -88,7 +88,7 @@ We obtained the general land cover categories we were interested in. Agricultura
 | Ag + Buildings | 15 | 4 | Imp. Surface |
 
 
-![lcAgReclassed](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/lcAgReclassed.png)
+![lcAgReclassed](/assets/images/lcAgReclassed.png)
 
 
 #### 3. Identify floodplain forest historic land developments and current extents
@@ -110,11 +110,11 @@ In order to see which areas of the historic floodplain forests were converted to
 | Historic + Imp. Surface | 14 | 14 | Historic + Developed |
 | Historic + Ag | 15 | 15 | Historic + Ag |
 
-![lcHistReclassed](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/lcHistReclassed.png)
+![lcHistReclassed](/assets/images/lcHistReclassed.png)
 
 In order to perform further analyses, we reclassified the previous layer to obtain values for only current extents (with everything other than current extents changed to a value of 0).
 
-![ffCurrent2](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/ffCurrent2.png)
+![ffCurrent2](/assets/images/ffCurrent2.png)
 
 #### 4. Computing area and visualizing categories
 
@@ -122,9 +122,9 @@ The areas of each of these categories were calculated and zonal statistics was p
 
 From this chart, we can determine the conflicts that exist with restoring floodplain forest communities in the Middlebury Region and can begin to identify how to approach their conservation.
 
-![currentGraph](/Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/assets/images/currentGraph.png)
+![currentGraph](/assets/images/currentGraph.png)
 
 
 ### Python Sript
 
-We implemented this model with the [WhiteBoxTools Open Core](https://www.whiteboxgeo.com/geospatial-software/). The floodplainForestsCurrentMethods.py script can be found [here](Users/sanjanaroy/Documents/CollegeProjects/GEOG310/wbt_pySpace-master/floodplainForestsCurrentMethods.py).
+We implemented this model with the [WhiteBoxTools Open Core](https://www.whiteboxgeo.com/geospatial-software/). The floodplainForestsCurrentMethods.py script can be found [here](floodplainForestsCurrentMethods.py).
